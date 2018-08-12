@@ -37,12 +37,12 @@ Dans le fichier *read.php*, récupérez les randonnées directement de la base d
 Vous devez utiliser PHP bien sûr, mais aussi PDO.
 
 > Rappel : un fichier PHP ne s'ouvre dans le navigateur en faisant un glisser déposer ! Ça ne va pas fonctionner !
-Vous devez absolument passer par votre serveur apache local : http://localhost/ ou http://localhost:8000/ ou etc.
+Vous devez absolument pa
+sser par votre serveur apache local : http://localhost/ ou http://localhost:8000/ ou etc.
 
 TIPS : l'utilisation de la méthode ```query()``` de PDO est un bon début *(dans ce cas là)*
 
 # Ajouter une randonnée
-
 Vous devez maintenant ajouter une randonnée, mais pas par phpmyadmin, plutôt directement par une page prévue à cet effet.
 
 Ça tombe bien, il y a la page *create.php*. Il y a déjà le formulaire. Vous devez récupérer les informations envoyées par ce formulaire et les enregistrer

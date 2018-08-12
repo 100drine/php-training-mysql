@@ -3,3 +3,11 @@ label, select, input{
   display: inline-block;
   margin: 5px 0;
 }
+
+
+  table { 
+  border-collapse: collapse; border-spacing: 0px;
+   }
+   table, th, td { 
+    padding: 12px; border: 1px solid black; 
+    }
